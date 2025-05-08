@@ -3,7 +3,7 @@ create database company;
 use company;
 create table employee (id integer(5) primary key,name varchar(20),salary integer(6),department varchar(20) not null,dob date);
  insert into employee (id,name,salary,department,dob) values
-    ( 1,'Arjun',30000,'HR','1/05/1993'),
+    ( 1,'Arjun',3000,'HR','1/05/1993'),
     (2,' Sajin',36000,'sales','1999-01-01'),
     (3,' Nima',36000,'sales','2002-02-20'),
     (4,' Jhon',36000,'production','2003-10-20'),
